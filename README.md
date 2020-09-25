@@ -32,9 +32,6 @@ Keras版CartoonGAN: https://github.com/miemie2013/keras_CartoonGAN
 
 纯python实现一个深度学习框架: https://github.com/miemie2013/Pure_Python_Deep_Learning
 
-
-http://htmlpreview.github.io/?https://github.com/miemie2013/Paddle-FCOS/blob/master/html/aa.html
-
 ## 传送门
 cv算法交流q群：645796480
 但是关于仓库的疑问尽量在Issues上提，避免重复解答。
