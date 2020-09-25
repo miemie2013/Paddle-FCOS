@@ -6,8 +6,6 @@
 
 使用方法请参考: https://aistudio.baidu.com/aistudio/projectdetail/872801
 
-<iframe style="width:100%;height: 640px;" src="https://v.qq.com/x/page/q3148vew4vv.html"   webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" autoplay=0> </iframe>
-
 ## 咩酱刷屏时刻
 
 Keras版YOLOv3: https://github.com/miemie2013/Keras-DIOU-YOLOv3
