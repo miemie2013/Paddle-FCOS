@@ -1,0 +1,34 @@
+arch: ${arch}
+min_subgraph_size: ${min_subgraph_size}
+use_python_inference: ${use_python_inference}
+mode: ${mode}
+draw_threshold: ${draw_threshold}
+metric: COCO
+with_background: false
+Preprocess:
+- to_rgb: ${to_rgb}
+  type: ToRGB
+- is_channel_first: ${is_channel_first}
+  is_scale: ${is_scale}
+  mean:
+  - ${mean0}
+  - ${mean1}
+  - ${mean2}
+  std:
+  - ${std0}
+  - ${std1}
+  - ${std2}
+  type: Normalize
+- target_size: ${target_size}
+  max_size: ${max_size}
+  interp: ${interp}
+  use_cv2: ${use_cv2}
+  type: Resize
+- channel_first: ${channel_first}
+  to_bgr: ${to_bgr}
+  type: Permute
+- pad_to_stride: ${pad_to_stride}
+  use_padded_im_info: ${use_padded_im_info}
+  type: PadBatch
+label_list:
+${class_names}
